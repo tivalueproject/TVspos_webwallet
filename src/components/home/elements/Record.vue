@@ -64,11 +64,11 @@
              cols="auto">
         <div>
           <span v-if="txIcon === 'sent' || txIcon === 'received'">{{ txIcon === 'sent' ? '-' : '+' }}</span>
-          <span>{{ formatter(txAmount) }} VSYS</span>
+          <span>{{ formatter(txAmount) }} TV</span>
         </div>
         <div class="tx-fee"
              v-if="(txIcon === 'sent' || txIcon === 'leased out canceled' || txIcon === 'leased out') && feeFlag">Tx Fee: -
-          <span> {{ formatter(txFee) }} VSYS </span>
+          <span> {{ formatter(txFee) }} TV </span>
         </div>
       </b-col>
       <b-col class="record-action"
