@@ -28,7 +28,7 @@ export default {
             title: 'TV HOT',
             twoPlanarCode: 'https://pulsar-resource.oss-cn-shanghai.aliyuncs.com/static/img/c800317.png',
             iphoneAppResource: 'itms-services://?action=download-manifest&url=https://link-e-pro.oss-cn-beijing.aliyuncs.com/install-manifest.plist',
-            androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/Tchat_online_enc_signed_Aligned.apk'
+            androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/hot.wallet_release.apk'
         }
     },
     created() {

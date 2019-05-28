@@ -28,7 +28,7 @@ export default {
             title: 'TV COLD',
             twoPlanarCode: 'https://pulsar-resource.oss-cn-shanghai.aliyuncs.com/static/img/c800317.png',
             iphoneAppResource: 'itms-services://?action=download-manifest&url=https://link-e-pro.oss-cn-beijing.aliyuncs.com/install-manifest.plist',
-            androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/Tchat_online_enc_signed_Aligned.apk'
+            androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/cold.wallet_release.apk'
         }
     },
     created() {
@@ -51,7 +51,7 @@ export default {
     font-size: 10px;
 }
 .download>section{
-    width: 160px;
+    width: 180px;
     min-height: 180px;
     margin: 0 auto;
     font-size: 1em;
