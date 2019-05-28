@@ -6,6 +6,8 @@ import Restore from '../components/Restore.vue'
 import Login from '../components/Login'
 import Terms from '../components/Terms'
 import Warning from '../components/Warning'
+import DownloadColdMobile from '../components/download/DownloadColdMobile'
+import DownloadHotMobile from '../components/download/DownloadHotMobile'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +36,14 @@ export default new Router({
         path: '/warning',
         name: 'warning',
         component: Warning
+    }, {
+        path: '/downloadColdMobile',
+        name: 'downloadColdMobile',
+        component: DownloadColdMobile
+    }, {
+        path: '/downloadHotMobile',
+        name: 'downloadHotMobile',
+        component: DownloadHotMobile
     }
     ]
 })
