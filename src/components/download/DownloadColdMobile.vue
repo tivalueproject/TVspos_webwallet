@@ -26,7 +26,7 @@ export default {
     data() {
         return {
             title: 'TV COLD',
-            twoPlanarCode: 'https://pulsar-resource.oss-cn-shanghai.aliyuncs.com/static/img/c800317.png',
+            twoPlanarCode: require('../../assets/imgs/download/ico_welcome.png'),
             iphoneAppResource: 'itms-services://?action=download-manifest&url=https://link-e-pro.oss-cn-beijing.aliyuncs.com/install-manifest.plist',
             androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/cold.wallet_release.apk'
         }
