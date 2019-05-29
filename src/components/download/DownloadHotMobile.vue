@@ -27,7 +27,7 @@ export default {
         return {
             title: 'TV HOT',
             twoPlanarCode: require('../../assets/imgs/download/ico_welcome.png'),
-            iphoneAppResource: 'itms-services://?action=download-manifest&url=https://link-e-pro.oss-cn-beijing.aliyuncs.com/install-manifest.plist',
+            iphoneAppResource: 'itms-services://?action=download-manifest&url=',
             androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/hot.wallet_release.apk'
         }
     },
