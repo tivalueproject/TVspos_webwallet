@@ -51,7 +51,7 @@ export default {
     font-size: 10px;
 }
 .download>section{
-    width: 160px;
+    width: 100%;
     min-height: 180px;
     margin: 0 auto;
     font-size: 1em;
