@@ -65,7 +65,7 @@ export default {
     display: inline-block;
     width: 100%;
     font-weight: bolder;
-    font-size: 2.8em;
+    font-size: 3.2em;
     margin-top: 160px;
 }
 .download>article{
