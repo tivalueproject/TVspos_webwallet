@@ -7,10 +7,10 @@
             <img :src="twoPlanarCode">
         </article>
         <div class="downloadBtns">
-            <a :href="iphoneAppResource">
-                <i class="anticon anticon-apple"><img src="../../assets/imgs/download/icon-iphone.svg" /></i>
-                <span>iPhone版下载</span>
-            </a>
+            <!--<a :href="iphoneAppResource">-->
+                <!--<i class="anticon anticon-apple"><img src="../../assets/imgs/download/icon-iphone.svg" /></i>-->
+                <!--<span>iPhone版下载</span>-->
+            <!--</a>-->
             <a :href="androidAppResource">
                 <i class="anticon anticon-android"><img src="../../assets/imgs/download/icon-android.svg" /></i>
                 <span>Android版下载</span>
