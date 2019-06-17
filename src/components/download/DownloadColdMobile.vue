@@ -7,7 +7,7 @@
             <img :src="twoPlanarCode">
         </article>
         <div class="downloadBtns">
-            <button disabled="disabled">
+            <button>
 				<a :href="iphoneAppResource">
                     <i class="anticon anticon-apple"><img src="../../assets/imgs/download/icon-iphone.svg" /></i>
                     <span>iPhone版下载</span>
@@ -32,7 +32,7 @@ export default {
         return {
             title: 'TV COLD',
             twoPlanarCode: require('../../assets/imgs/download/ico_welcome.png'),
-            iphoneAppResource: '',
+            iphoneAppResource: 'https://testflight.apple.com/join/asJKfv78',
             androidAppResource: 'https://link-e-pro.oss-cn-beijing.aliyuncs.com/wallet/cold.wallet_release.apk'
         }
     },
