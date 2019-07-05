@@ -1,7 +1,7 @@
-﻿<template>
+<template>
     <div class="planerCodeContainer">
         <div class="planerCode">
-            <section class="coldIcon"></section>
+            <section class="hotIcon"></section>
             <article>
                 <img :src="twoPlanarCode">
             </article>
@@ -16,10 +16,10 @@
 // import {NODE_IP} from '../constants'
 import './planarCode.css'
 export default {
-    name: 'PlanarCodeCold',
+    name: 'PlanarCodeHot',
     data() {
         return {
-            twoPlanarCode: require('../../assets/imgs/download/cold.png')
+            twoPlanarCode: require('../../assets/imgs/download/hot-ios.png')
         }
     },
     created() {

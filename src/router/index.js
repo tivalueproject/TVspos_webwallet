@@ -8,8 +8,10 @@ import Terms from '../components/Terms'
 import Warning from '../components/Warning'
 import DownloadColdMobile from '../components/download/DownloadColdMobile'
 import DownloadHotMobile from '../components/download/DownloadHotMobile'
-import PlanarCodeCold from '../components/download/PlanarCodeCold'
-import PlanarCodeHot from '../components/download/PlanarCodeHot'
+import AndroidColdCode from '../components/download/AndroidColdCode'
+import AndroidHotCode from '../components/download/AndroidHotCode'
+import IOSColdCode from '../components/download/IOSColdCode'
+import IOSHotCode from '../components/download/IOSHotCode'
 Vue.use(Router)
 
 export default new Router({
@@ -47,13 +49,21 @@ export default new Router({
         name: 'downloadHotMobile',
         component: DownloadHotMobile
     }, {
-        path: '/planarCodeCold',
-        name: 'planarCodeCold',
-        component: PlanarCodeCold
+        path: '/androidCodeCold',
+        name: 'androidCodeCold',
+        component: AndroidColdCode
     }, {
-        path: '/planarCodeHot',
-        name: 'planarCodeHot',
-        component: PlanarCodeHot
+        path: '/andriodCodeHot',
+        name: 'andriodCodeHot',
+        component: AndroidHotCode
+    }, {
+        path: '/iosCodeCold',
+        name: 'iosCodeCold',
+        component: IOSColdCode
+    }, {
+        path: '/iosCodeHot',
+        name: 'iosCodeHot',
+        component: IOSHotCode
     }
     ]
 })
